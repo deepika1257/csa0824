@@ -1,0 +1,7 @@
+a = 10
+b = 20
+maximum = a if a > b else b
+print("Maximum number is:", maximum)
+
+output
+Maximum number is: 20
