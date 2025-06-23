@@ -1,0 +1,10 @@
+number = 36
+guess = number / 2.0
+
+for _ in range(10):
+    guess = (guess + number / guess) / 2
+
+print("Square root of", number, "is approximately:", guess)
+
+output
+Square root of 36 is approximately: 6.0
