@@ -1,0 +1,6 @@
+text = "Hello, World!"
+reversed_text = text[::-1]
+print("Reversed string:", reversed_text)
+
+output
+Reversed string: !dlroW ,olleH
