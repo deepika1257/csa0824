@@ -1,0 +1,9 @@
+a =30
+b = 20
+while b != 0:
+    a, b = b, a % b
+
+print("GCD is:", a)
+
+output
+GCD is: 10
