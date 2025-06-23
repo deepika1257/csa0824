@@ -1,0 +1,7 @@
+set1 = {1,2,3,4}
+set2 = {5,2,7,3}
+intersection_set= set1.intersection(set2)
+print("intersection elements are :",intersection_set)
+
+output 
+intersection elements are : {2, 3}
