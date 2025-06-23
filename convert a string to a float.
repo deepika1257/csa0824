@@ -1,0 +1,6 @@
+string_number = "123.45"
+float_number = float(string_number)
+print("Converted float:", float_number)
+
+output
+Converted float: 123.45
