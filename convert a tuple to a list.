@@ -1,0 +1,6 @@
+tuple1 = (1, 2, 3, 4, 5)
+list1 = list(tuple1)
+print("Converted list:", list1)
+
+output
+Converted list: [1, 2, 3, 4, 5]
