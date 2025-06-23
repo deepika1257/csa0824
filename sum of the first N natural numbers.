@@ -1,0 +1,6 @@
+n = 20
+sum_natural = n * (n + 1) // 2
+print("Sum of first", n, "natural numbers is:", sum_natural)
+
+output
+Sum of first 20 natural numbers is: 210
