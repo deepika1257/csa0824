@@ -1,0 +1,11 @@
+number = 124
+original = str(number)
+reversed_num = original[::-1]
+
+if original == reversed_num:
+    print(number, "is a palindrome")
+else:
+    print(number, "is not a palindrome")
+
+output
+124 is not a palindrome
