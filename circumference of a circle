@@ -1,0 +1,8 @@
+ radius = 7
+pi = 3.14
+circumference = 2 * pi * radius
+print("Circumference of the circle is:", circumference)
+
+output
+
+Circumference of the circle is: 43.96
