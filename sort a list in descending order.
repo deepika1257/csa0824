@@ -1,0 +1,6 @@
+numbers = [44,84,23,15,33]
+numbers.sort(reverse=True)
+print("the decencing order of numbers is",numbers)
+
+output
+the decencing order of numbers is [84, 44, 33, 23, 15]
