@@ -1,0 +1,6 @@
+word = "welcome"
+length = len(word)
+print("length of the string :",length)
+
+output 
+length of the string : 7
