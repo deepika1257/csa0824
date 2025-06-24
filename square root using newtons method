@@ -1,0 +1,12 @@
+def sqrt(n):
+    x = n
+    for _ in range(10):
+        x = (x + n / x) / 2
+    return x
+n = int(input("enter n"))
+print(sqrt(n))
+
+output
+enter n16
+4.0
+
