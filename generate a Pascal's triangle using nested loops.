@@ -1,0 +1,23 @@
+rows = int(input("enter number of rows"))
+print("pascal triangle")
+for i in range(rows):
+  number = 1
+  print(" " * (rows - i), end="")
+  for j in range(i + 1):
+    print(number,end=" ")
+    number = number * (i - j) // (j + 1)
+  print()
+
+input :
+4
+output :
+
+enter number of rowspascal triangle
+    1 
+   1 1 
+  1 2 1 
+ 1 3 3 1 
+
+
+
+
